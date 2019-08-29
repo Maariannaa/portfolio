@@ -1,10 +1,10 @@
 import React from 'react'
-import '../css/custom.css'
+import './contact.css'
 
 function Contact(){
   return(
-    <footer>
-      <div className="container">
+     
+      <div className="contact">
         <div className="footer-info">
           <p className="footer-head">
             by Design
@@ -42,7 +42,7 @@ function Contact(){
           <a className="footer-btn" href="/home"> <p className="email">design@gmail.com</p> </a>
         </div>
       </div>
-    </footer>
+
   )
 }
 

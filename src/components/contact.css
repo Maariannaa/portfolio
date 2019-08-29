@@ -1,0 +1,76 @@
+.contact {
+	font-size: 0;
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+.contact a {
+	color: #fff;
+}
+
+.email {
+	font-size: 1.2rem;
+	font-weight: 200;
+	margin-top: 0.1rem;
+	color: white;
+}
+
+.email:hover {
+	font-weight: 700;
+	color: black;
+}
+
+.footer-info, .social-links, .callback {
+	display: inline-block;
+	width: 33.33%;
+	text-align: center;
+}
+
+.footer-info p .social-links {
+	font-size: 1.5rem;
+}
+
+.footer-head {
+	padding-bottom: 1.5rem; 
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-top: 1rem;
+}
+
+.social-links img {
+	width: 3rem;
+}
+
+.social-links a {
+	background-color: white;
+	font-size: 0;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	border: 1px solid #000;
+	display: inline-block;
+	width: 3rem;
+	height: 3rem;
+	vertical-align: middle;
+	border-radius: 50%;
+	line-height: 1.5rem;
+}
+
+.footer-btn {
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+	padding: 5px 5px;
+	border: 2px solid white;
+	border-radius: 5px;
+	border-style: ridge;
+	text-decoration: none;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.footer-btn:hover {
+	color: black;
+	background: white;
+}
