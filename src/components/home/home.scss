@@ -1,0 +1,27 @@
+@import '../../app.scss';
+
+.home {
+  height: 100vh;
+  background-color: $dark-background;
+	min-height: 400px;
+  background-attachment: fixed;
+	background-size: cover;
+	color: $dark-text;	
+	text-align: center;
+	transition: all 0.2s;
+		-webkit-transition: all 0.2s;
+		-o-transition: all 0.2s;
+}
+
+.home-header {
+	position: absolute;
+	left: 50%;
+	top:50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-left: 6px solid $dark-text;
+}
+
+.home-title {
+  font-size: 3rem;
+  margin: 25px;
+}

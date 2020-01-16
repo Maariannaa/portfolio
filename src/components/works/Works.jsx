@@ -1,7 +1,10 @@
+// Common
 import React from 'react'
-import './my_works.css'
 
-function MyWorks(){
+// Styles
+import './works.scss'
+
+export default function MyWorks(){
   return(
      <div className='main'>
       <div className='container'>
@@ -74,5 +77,3 @@ function MyWorks(){
      </div>
   )
 }
-
-export default MyWorks
